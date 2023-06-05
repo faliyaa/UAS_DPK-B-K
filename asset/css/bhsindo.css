@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  background-color: #cb2776;
+  justify-content: space-around;
+  /* padding: 20px 0; */
+  color: #fdbc46;
+  height: 50px;
+  align-items: center;
+  border-bottom: 2px solid #fdbc46;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.col-img1 {
+  position: absolute;
+  top: 27px;
+  right: 108%;
+  transform: translate(27%, -45%);
+  width: 57%;
+  text-align: -webkit-right;
+}
+
+.col-img1 img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Awal Card */
+.card-bf {
+  height: 100vh;
+  margin-top: -15px;
+}
+
+.tc h2 {
+  margin-top: 70px;
+  text-align: center;
+  color: #cb2776;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: rgb(253, 188, 70);
+  color: white;
+  margin-top: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 500px;
+  height: 215px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  margin-right: 17px;
+  margin-top: 15px;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+
+.card-text {
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+/* Akhir Card */

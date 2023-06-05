@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  background: url(../images/file_2023-06-04_15.01.52.png) no-repeat fixed center;
+  background-size: cover;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color: #cb2776;
+  justify-content: space-around;
+  /* padding: 20px 0; */
+  color: #fdbc46;
+  height: 50px;
+  align-items: center;
+  border-bottom: 2px solid #fdbc46;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.col-img1 {
+  position: absolute;
+  top: 27px;
+  right: 108%;
+  transform: translate(27%, -45%);
+  width: 57%;
+  text-align: -webkit-right;
+}
+
+.col-img1 img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Akhir Navbar */
+
+/* Register */
+.register {
+  background: white;
+  height: 100vh;
+  width: 45%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.col-img {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translate(27%, -45%);
+  width: 57%;
+  text-align: -webkit-right;
+}
+
+.col-img img {
+  width: 80%;
+}
+
+.create-acc h1 {
+  padding-top: 50px;
+  padding-left: 55px;
+  color: #cb2776;
+  font-size: 45px;
+}
+
+.create-acc h1 span {
+  color: #fdbc46;
+}
+
+.create-acc .login {
+  color: #cb2776;
+  text-decoration: none;
+  padding: 57px;
+  font-size: 20px;
+}
+
+.create-acc .login:hover {
+  color: #fdbc46;
+}
+
+.f12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-1 {
+  margin-top: 30px;
+  margin-left: 57px;
+}
+
+.form-1 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-1 .box {
+  width: 200px;
+  height: 35px;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-2 {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.form-2 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-2 .box {
+  width: 200px;
+  height: 35px;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-2 {
+  margin-top: 30px;
+  margin-right: 85px;
+}
+
+.form-2 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-3 .box {
+  width: 422px;
+  height: 37px;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-3 {
+  margin-top: 30px;
+  margin-left: 57px;
+}
+
+.form-3 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-4 .box {
+  width: 422px;
+  height: 37px;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-4 {
+  margin-top: 30px;
+  margin-left: 57px;
+}
+
+.form-4 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-5 .box {
+  width: 422px;
+  height: 37px;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 10px;
+}
+.form-5 {
+  margin-top: 30px;
+  margin-left: 57px;
+}
+
+.form-5 .text {
+  color: #cb2776;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-create {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: #cb2776;
+  color: #fdbc46;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.btn-create:hover {
+  background-color: #fdbc46;
+  color: #cb2776;
+}
+/* Akhir Register */

@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(0deg, rgba(255, 194, 69, 1) 0%, rgba(203, 39, 118, 1) 100%);
+  height: 100vh;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color: #cb2776;
+  justify-content: space-around;
+  /* padding: 20px 0; */
+  color: #fdbc46;
+  height: 50px;
+  align-items: center;
+  border-bottom: 2px solid #fdbc46;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.col-img1 {
+  position: absolute;
+  top: 27px;
+  right: 108%;
+  transform: translate(27%, -45%);
+  width: 57%;
+  text-align: -webkit-right;
+}
+
+.col-img1 img {
+  width: 30px;
+  height: 30px;
+}
+/* Akhir Navbar */
+
+/* Awal Content */
+.section {
+  width: 200px; /* Lebar elemen */
+  height: 200px; /* Tinggi elemen */
+  border-radius: 50%; /* Mengatur radius setengah dari lebar/tinggi elemen */
+  background: #fff; /* Warna latar belakang */
+  z-index: 3;
+}
+
+.col-img {
+  position: absolute;
+  top: -309px;
+  left: -150px;
+  width: 57%;
+  text-align: -webkit-right;
+  z-index: -2;
+}
+
+.col-img img {
+  width: 140%;
+}
+
+.drop-down h1 {
+  margin-top: 50px;
+  margin-left: 57px;
+  color: #cb2776;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-color: #f5e7ed;
+  background-image: none;
+  flex: 1;
+  padding: 0 0.5em;
+  color: #cb2776;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 57px;
+  width: 30em;
+  height: 3em;
+  line-height: 3;
+  background: #f5e7ed;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #cb2776;
+  color: #f5e7ed;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+
+.select:hover::after {
+  color: #fdbc46;
+}
+
+.select1 {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 57px;
+  width: 30em;
+  height: 3em;
+  line-height: 3;
+  background: #f5e7ed;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+
+.select1::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #cb2776;
+  color: #f5e7ed;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+
+.select1:hover::after {
+  color: #fdbc46;
+}
+
+.select2 {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 57px;
+  width: 30em;
+  height: 3em;
+  line-height: 3;
+  background: #f5e7ed;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+
+.select2::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #cb2776;
+  color: #f5e7ed;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+
+.select2:hover::after {
+  color: #fdbc46;
+}
+
+.sekolah {
+  margin-top: 30px;
+  margin-left: 57px;
+}
+
+.sekolah .box {
+  padding-left: 7px;
+  width: 35.5em;
+  height: 3.5em;
+  background: #f5e7ed;
+  border: none;
+  border-radius: 0.25em;
+}
+
+.sekolah .box::placeholder {
+  color: #cb2776;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+}
+/* Akhir Content */
+
+/* Awal Checkbox */
+.wrapper {
+  height: 3em;
+  width: 9em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #f5e7ed;
+  border-radius: 8px;
+  margin-left: 100px;
+  margin-top: 41.5%;
+  justify-content: space-between;
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 17px;
+  width: 17px;
+  background-color: #fdbc46;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+label {
+  color: #cb2776;
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+input[type='checkbox']:after {
+  font-family: 'Font Awesome 5 free';
+  font-weight: 800;
+  content: '\f00c';
+  font-size: 17px;
+  color: #cb2776;
+  display: none;
+}
+input[type='checkbox']:hover {
+  background-color: #fdbc46;
+}
+
+input[type='checkbox']:checked {
+  background-color: #fdbc46;
+}
+input[type='checkbox']:checked:after {
+  display: block;
+}
+
+.wrapper1 {
+  height: 3em;
+  width: 9em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background: #f5e7ed;
+  border-radius: 8px;
+  margin-left: 27%;
+  margin-top: 41.5%;
+  justify-content: space-between;
+}
+
+input[type='checkbox-1'] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 17px;
+  width: 17px;
+  background-color: #fdbc46;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+label {
+  color: #cb2776;
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+input[type='checkbox-1']:after {
+  font-family: 'Font Awesome 5 free';
+  font-weight: 800;
+  content: '\f00c';
+  font-size: 17px;
+  color: #fdbc46;
+  display: none;
+}
+input[type='checkbox-1']:hover {
+  background-color: #cb2776;
+}
+
+input[type='checkbox-1']:checked {
+  background-color: #cb2776;
+}
+input[type='checkbox-1']:checked:after {
+  display: block;
+}
+
+.btn-lanjut {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #cb2776;
+  color: #fdbc46;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 230px;
+  margin-top: 130px;
+  font-weight: 600;
+}
+
+.btn-lanjut:hover {
+  background-color: #fdbc46;
+  color: #cb2776;
+}
+/* Akhir Checkbox */
+
+/* Awal Daftar */
+.daftar {
+  margin-top: 80px;
+}
+.text {
+  color: white;
+  text-align: right;
+  margin-right: 70px;
+  margin-top: -390px;
+  font-size: 25px;
+}
+
+.content {
+  float: right;
+  margin-right: 200px;
+  margin-top: 15px;
+}
+
+.content img {
+  width: 80px;
+  height: 80px;
+}
+
+.content p {
+  margin-right: -5px;
+  color: white;
+  text-align: center;
+}
+
+.content1 {
+  float: right;
+  margin-right: -200px;
+  margin-top: 15px;
+}
+
+.content1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.content1 p {
+  margin-right: -5px;
+  color: white;
+  text-align: center;
+}
+
+/* Akhir Daftar */

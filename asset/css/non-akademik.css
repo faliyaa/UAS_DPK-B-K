@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+.col-img img {
+  float: center;
+  margin-top: -80px;
+  width: 100%;
+}
+
+.section {
+  margin-top: 90px;
+  margin-left: 60px;
+  height: 300px;
+  width: 90%;
+  background-color: #fdbc46;
+  float: center;
+  border-radius: 20px;
+}
+
+.mapel {
+  margin-left: 7%;
+  margin-bottom: 10%;
+}
+
+/* INA */
+.btn-bi {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-bi:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* INA */
+
+/* BING */
+.btn-bing {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-bing:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/*  BING */
+
+/* BIOLOGI */
+.btn-bio {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-bio:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* BIOLOGI */
+
+/* FISIKA */
+.btn-fsk {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-fsk:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* FISIKA */
+
+/* KIMIA */
+.btn-kimia {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-kimia:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* KIMIA */
+
+/* BJW */
+.btn-bjw {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.btn-bjw:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* BJW */
+
+/* MTK */
+.btn-mtk {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 35px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.btn-mtk:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* MTK */
+
+/* CARI */
+.btn-cari {
+  float: right;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff5e2;
+  color: #ce3072;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 17%;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.btn-cari:hover {
+  background-color: rgb(255, 224, 163, 0.44);
+  color: #ce3072;
+}
+/* CARI */
+
+/* Arrow */
+.arrow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.arrow img {
+  height: 50px;
+  width: 50px;
+}
+/* Arrow */

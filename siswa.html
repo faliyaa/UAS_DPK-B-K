@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siswa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="asset/css/siswa.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Awal Nav -->
+      <nav class="navbar shadow-sm" shadow>
+        <a href="siswa.html"></a>
+        <div class="col-img1">
+          <img src="asset/images/maki_arrow.png" alt="" />
+        </div>
+      </nav>
+      <!-- Akhir Nav -->
+    </header>
+
+    <!-- Awal Dropdown -->
+    <div class="drop-down">
+      <h1>Siswa</h1>
+      <div class="col-img">
+        <img src="asset/images/Ellipse 7.png" alt="" />
+      </div>
+      <div class="select">
+        <select name="format" id="format">
+          <option selected disabled>Kelas</option>
+          <option value="jawa-tengah">1</option>
+          <option value="jawa-tengah">2</option>
+          <option value="jawa-tengah">3</option>
+          <option value="jawa-tengah">5</option>
+          <option value="jawa-tengah">6</option>
+          <option value="jawa-tengah">7</option>
+          <option value="jawa-tengah">8</option>
+          <option value="jawa-tengah">9</option>
+          <option value="jawa-tengah">10</option>
+          <option value="jawa-tengah">11</option>
+          <option value="jawa-tengah">12</option>
+        </select>
+      </div>
+      <div class="select1">
+        <select name="format" id="format">
+          <option selected disabled>Provinsi</option>
+          <option value="jawa-tengah">Jawa Tengah</option>
+          <option value="jawa-timur">Jawa Timur</option>
+          <option value="jawa-barat">Jawa Barat</option>
+        </select>
+      </div>
+      <div class="select2">
+        <select name="format" id="format">
+          <option selected disabled>Kabupaten/Kota</option>
+          <option value="Kabupaten-Banjarnegara">Kabupaten Banjarnegara</option>
+          <option value="Kabupaten-Banyumas">Kabupaten Banyumas</option>
+          <option value="Kabupaten-Batang">Kabupaten Batang</option>
+          <option value="Kabupaten-Blora">Kabupaten Blora</option>
+          <option value="Kabupaten-Boyolali">Kabupaten Boyolali</option>
+          <option value="Kabupaten-Brebes">Kabupaten Brebes</option>
+          <option value="kabupaten-cilacap">Kabupaten Cilacap</option>
+          <option value="kabupaten-demak">Kabupaten Demak</option>
+          <option value="kabupaten-grobogan">Kabupaten Grobogan</option>
+          <option value="kabupaten-jepara">Kabupaten Jepara</option>
+          <option value="kabupaten-karanganyar">Kabupaten Karanganyar</option>
+        </select>
+      </div>
+      <div class="sekolah">
+        <input class="box" type="text" id="sekolah" name="sekolah" placeholder="Masukkan nama sekolah" required />
+      </div>
+    </div>
+    <!-- Akhir Dropdown -->
+
+    <!-- Awal checkbox gender -->
+    <div class="check">
+        <div class="wrapper">
+            <input type="checkbox" id="check" />
+            <label for="check">Laki-Laki</label>
+          </div>
+          <div class="wrapper1">
+            <input type="checkbox-1" id="check" />
+            <label for="check">Perempuan</label>
+          </div>
+    </di>
+    <a href="dashboard.html" class="btn-lanjut">Lanjut</a>
+    <!-- Akhir checkbox gender -->
+
+    <!-- Awal Daftar -->
+    <div class="daftar">
+        <div class="text">
+            <h3>Bell-Friends daftar</h3>
+            <h3>sebagai apa?</h3>
+        </div>
+        <div class="content">
+            <img src="asset/images/Group 40.png" alt="Gambar" id="myImage" onclick="pindahKesiswa()">
+            <p>Siswa</p>
+        </div>
+        <div class="content1">
+            <img src="asset/images/Group 47.png" alt="Gambar" id="myImage" onclick="pindahKeguru()">
+            <p>Guru</p>
+        </div>
+    </div>
+    <!-- Akhir Daftar -->
+    <script src="asset/js/script.js"></script>s
+  </body>
+</html>
